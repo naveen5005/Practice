@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const fruits = ["Banana", "Orange", "Apple"];
+        const data ={
+
+        }
+        console.log(typeof fruits);
+        console.log(Array.isArray(fruits));
+        console.log(Array.isArray(data));
+
+        // push method will add the value to the last of an array
+        fruits.push("PineApple");
+        console.log(fruits);
+
+        // unshift methoad will add the value to the start of an array
+        fruits.unshift("Guava");
+        console.log(fruits);
+
+        // pop method will delete the value at the end of an array
+        fruits.pop();
+        console.log(fruits);
+
+        // shift method will remove the value at the start of an array
+        fruits.shift();
+        console.log(fruits);
+
+        //splice method will add/insert the value to the array at the given index
+        // add cherry to the second position (0 means to add)
+        fruits.splice(2,0,"cherry");
+        console.log(fruits);
+
+        // remove the exisiting value at the position 2 and replace with sweetpan value
+        // 1 means to remove the value
+        fruits.splice(2,1,"sweetpan");
+        console.log(fruits);
+        // remove the 2 values from the starting position 0 and replace the value with Kongo
+        fruits.splice(0,2,"kongo");
+        console.log(fruits);
+
+        // sort method will sort the array in ascending order
+        console.log(fruits.sort());
+        // using sort and reverse method will sort the array in descending order
+        console.log(fruits.sort().reverse());
+
+        // converts an array to a string of (comma separated) array values.
+        console.log(fruits.toString()); 
+
+        // The join() method also joins all array elements into a string.
+        // It behaves just like toString(), but in addition you can specify the separator:
+        console.log(fruits.join("*"));
+
+        // slice method will create a new array,it doesn't remove any element from the src array
+        console.log('slice method : ',fruits.slice(0,2))
+
+        // *************************   ES6 Methods  ****************************************
+        var players = ["Rahul","Rohit","Kohli","Hardik","Pant"];
+        players.forEach((data,i)=>{
+            console.log(i, ":" ,data)
+        });
+
+        // map() will work same as forEach but map method will provide u the new array
+        let updatedPlayerDetails = players.map((data,i)=>{
+            console.log(i,":",data)
+            return "Player name is "+data
+        })
+        console.log(updatedPlayerDetails);
+
+        // it will get the first value based on condition
+        let firstPlayers =players.find((data)=>{
+            return data.length >=4;
+        });
+        console.log(firstPlayers);
+
+        // using filter method it will return multiple values based on the condition
+        let allPlayers =players.filter((data)=>{
+            return data.length >=5;
+        });
+        console.log(allPlayers)
+
+        var playerDetails = [
+            {name :"Rohit", runs : 56},
+            {name :"Rahul", runs : 18},
+            {name:"Kohli", runs:87}
+        ]
+
+        // check for the condition(if one of them statisfies condition will be true)
+        var statementValue = playerDetails.some((data)=>{
+            return data.runs ==18
+        });
+        console.log("Some method : ",statementValue)
+
+        // check the condition for all the elements(if one of condi fail return false)
+        var statement = playerDetails.every((data)=>{
+            return data.runs > 18
+        })
+        console.log("every method : ",statement);
+
+        // reduce method will return a value based on the codition
+        let totalScore = playerDetails.reduce((a,b)=>{
+            if(a.runs){
+                return a.runs+b.runs
+            }
+            else{
+                return a+b.runs
+            }
+        });
+        console.log("total score : ",totalScore)
+
+        var a = true
+        if(a){
+            var b=6;
+            var b="suman";
+            console.log(b)
+        }
+        console.log(b)
+
+        function sortAscending(){
+            var arra = ['a','ccc','ddd','bb','']
+            for(var i =0 ; i<arra.length ;i++){
+                for(var j=i+1;j<arra.length;j++){
+                    if(arra[i].length > arra[j].length){
+                        var m = arra[i];
+                        arra[i] = arra[j];
+                        arra[j] = m
+                    }
+                }
+            }
+            console.log(arra)
+        }
+        sortAscending()
+    </script>
+</body>
+</html>
