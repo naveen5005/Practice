@@ -35,5 +35,81 @@
       "genderCheckBox": "Female",
       "id": 4
     }
+  ],
+  "usersOne": [
+    {
+      "fname": "Naveen Bellam",
+      "email": "naveen@gmail.com",
+      "gender": "Male",
+      "genderDropdown": "Male",
+      "genderCheckbox": [
+        "Female"
+      ],
+      "id": 1
+    },
+    {
+      "fname": "sneha dhurve",
+      "email": "sneha@gmail.com",
+      "gender": "Female",
+      "genderDropdown": "Female",
+      "genderCheckbox": [
+        "Female"
+      ],
+      "id": 2
+    },
+    {
+      "fname": "as asd",
+      "email": "as@gmail.com",
+      "gender": "Female",
+      "genderDropdown": "Female",
+      "genderCheckbox": [
+        "Male",
+        "Others",
+        "Female"
+      ],
+      "id": 3
+    },
+    {
+      "fname": "Shushma karna",
+      "email": "kavya@gmail.com",
+      "gender": "Female",
+      "genderDropdown": "Female",
+      "genderCheckbox": [
+        "Female"
+      ],
+      "id": 4
+    },
+    {
+      "fname": "asdfg guh",
+      "email": "aa@gmail.com",
+      "gender": "Female",
+      "genderDropdown": "Male",
+      "genderCheckbox": [
+        "Others",
+        "Female",
+        "Male"
+      ],
+      "id": 5
+    },
+    {
+      "fname": "Lobe ovnaveen",
+      "email": "test@gmail.com",
+      "gender": "Male",
+      "genderDropdown": "Male",
+      "genderCheckbox": [
+        "Female"
+      ],
+      "id": 6
+    },
+    {
+      "fname": "Naveen Bellam",
+      "email": "naveen@gmail.com",
+      "gender": "Female",
+      "genderDropdown": "Female",
+      "genderCheckbox": [
+        "Female"
+      ],
+      "id": 7
+    }
   ]
 }
