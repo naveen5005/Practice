@@ -43,7 +43,7 @@
       "gender": "Male",
       "genderDropdown": "Male",
       "genderCheckbox": [
-        "Female"
+        "Others"
       ],
       "id": 1
     },
@@ -94,11 +94,7 @@
       "email": "naveen@gmail.com",
       "gender": "Female",
       "genderDropdown": "Female",
-      "genderCheckbox": [
-        "Female",
-        "Others",
-        "Male"
-      ],
+      "genderCheckbox": [],
       "id": 7
     }
   ]
