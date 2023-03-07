@@ -58,26 +58,14 @@
       "id": 2
     },
     {
-      "fname": "as asd",
+      "fname": "vdsvjev",
       "email": "as@gmail.com",
       "gender": "Female",
       "genderDropdown": "Female",
       "genderCheckbox": [
-        "Male",
-        "Others",
-        "Female"
+        "Male"
       ],
       "id": 3
-    },
-    {
-      "fname": "Shushma karna",
-      "email": "kavya@gmail.com",
-      "gender": "Female",
-      "genderDropdown": "Female",
-      "genderCheckbox": [
-        "Female"
-      ],
-      "id": 4
     },
     {
       "fname": "asdfg guh",
@@ -107,7 +95,9 @@
       "gender": "Female",
       "genderDropdown": "Female",
       "genderCheckbox": [
-        "Female"
+        "Female",
+        "Others",
+        "Male"
       ],
       "id": 7
     }
