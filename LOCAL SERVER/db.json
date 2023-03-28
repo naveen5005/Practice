@@ -1,39 +1,13 @@
 {
   "employees": [
     {
-      "id": 1,
-      "fname": "Sebastian",
-      "lname": "Eschweiler",
-      "email": "sebastian@codingthesmartway.com",
-      "gender": "Male",
-      "genderDropdown": "Female",
-      "genderCheckBox": []
-    },
-    {
-      "id": 2,
-      "fname": "Naveen",
-      "lname": "Bellam",
-      "email": "naveen@codingthesmartway.com",
-      "gender": "Male",
-      "genderDropdown": "Female",
-      "genderCheckBox": []
-    },
-    {
-      "fname": "d",
-      "lname": "abc",
-      "email": "",
-      "gender": "Female",
-      "genderDropdown": "Female",
-      "id": 3
-    },
-    {
       "fname": "Priya",
-      "lname": "Swapna",
+      "lname": "",
       "email": "priya@gmail.com",
-      "gender": "Female",
-      "genderDropdown": "Female",
-      "genderCheckBox": "Female",
-      "id": 4
+      "gender": "",
+      "genderDropdown": "",
+      "genderCheckBox": [],
+      "id": 1
     }
   ],
   "usersOne": [
@@ -97,5 +71,6 @@
       "genderCheckbox": [],
       "id": 7
     }
-  ]
+  ],
+  "person": []
 }
