@@ -1,0 +1,1 @@
+export const GET_PERSON_LISTS = "GET_PERSONS"
