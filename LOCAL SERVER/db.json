@@ -17,7 +17,9 @@
       "gender": "Male",
       "genderDropdown": "Male",
       "genderCheckbox": [
-        "Others"
+        "Others",
+        "Male",
+        "Female"
       ],
       "id": 1
     },
@@ -27,7 +29,8 @@
       "gender": "Female",
       "genderDropdown": "Female",
       "genderCheckbox": [
-        "Female"
+        "Female",
+        "Male"
       ],
       "id": 2
     },
@@ -54,22 +57,14 @@
       "id": 5
     },
     {
-      "fname": "Lobe ovnaveen",
-      "email": "test@gmail.com",
-      "gender": "Male",
+      "fname": "prince sdfghj",
+      "email": "mahesh143@outlook.com",
+      "gender": "Female",
       "genderDropdown": "Male",
       "genderCheckbox": [
-        "Female"
+        "Others"
       ],
       "id": 6
-    },
-    {
-      "fname": "Naveen Bellam",
-      "email": "naveen@gmail.com",
-      "gender": "Female",
-      "genderDropdown": "Female",
-      "genderCheckbox": [],
-      "id": 7
     }
   ],
   "person": [
