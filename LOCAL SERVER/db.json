@@ -59,12 +59,24 @@
     {
       "fname": "prince sdfghj",
       "email": "mahesh143@outlook.com",
-      "gender": "Female",
+      "gender": "Male",
+      "genderDropdown": "Male",
+      "genderCheckbox": [
+        "Others",
+        "Male",
+        "Female"
+      ],
+      "id": 6
+    },
+    {
+      "fname": "Cherukuri Rohan",
+      "email": "cherukurirohan45@gmail.com",
+      "gender": "Male",
       "genderDropdown": "Male",
       "genderCheckbox": [
         "Others"
       ],
-      "id": 6
+      "id": 8
     }
   ],
   "person": [
